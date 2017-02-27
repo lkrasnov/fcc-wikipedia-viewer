@@ -15,7 +15,22 @@
     </div>
 
     <div class="jumbotron">
-        Test
+      <div class="row">
+        <div class="col">
+          <form id="searchForm">
+            <div class="input-group">
+              <input type="text" class="form-control" id="searchText" placeholder="Search Wikipedia" required="true">
+              <span class="input-group-btn">
+                <button type="submit" class="btn btn-primary">Search</button>
+              </span>
+              <span class="input-group-btn">
+                <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" class="btn btn-danger" role="button" aria-pressed="true">Random Article</a>
+              </span>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div id="results" class="list-group"></div>
     </div>
 
     <footer class="footer">
